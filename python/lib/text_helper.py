@@ -11,4 +11,4 @@ class TextHelper(object):
 
 
 if __name__ == '__main__':
-    print TextHelper.get_time_from_file_path("/Users/hfwu/Desktop/bib/BIB29/data/2017_04_25/2017_04_25_17_03_09_BIB_BRIEFCASE_29_data.csv")
+    print TextHelper.get_time_from_file_path("/Users/hfwu/Desktop/bib/BIB29/data/2017_05_04/2017_04_25_17_03_09_BIB_BRIEFCASE_29_data.csv")
