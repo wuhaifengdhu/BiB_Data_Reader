@@ -46,7 +46,7 @@ class BibReader(object):
         if self._is_date_change():
             self._read_last_date_file()
         self._read_today_data()
-        return os.linesep.join(self.new_data)
+        return self.new_data
 
     def _read_today_data(self):
         self.last_read_date = DateHelper.get_current_date()

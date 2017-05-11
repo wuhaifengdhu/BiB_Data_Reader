@@ -81,6 +81,6 @@ class SystemHelper(object):
 
 if __name__ == '__main__':
     # _directory = ''
-    # print (SystemHelper.list_files_in_directory('/Users/hfwu/Desktop/bib/BIB29/data/2017_05_04', True))
+    # print (SystemHelper.list_files_in_directory('/Users/hfwu/Desktop/bib/BIB29/data/2017_05_11', True))
     # SystemHelper.unzip_gz_file('../resource/2017_04_25_17_03_09_BIB_BRIEFCASE_29_data.csv.gz', 'data.csv')
     SystemHelper.move('2017_04_25_17_14_24_BIB_BRIEFCASE_29_data.csv.gz', '../a.gz')
